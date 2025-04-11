@@ -1,0 +1,96 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 12px 16px;
+  width: 100%;
+  max-width: 320px;
+  position: relative;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+.user-card:hover {
+    background-color: aqua;
+}
+
+.user-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.user-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-email {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #10b981;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #10b981;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.menu-icon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .user-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+  }
+
+  .user-avatar {
+    margin: 0 0 12px 0;
+  }
+
+  .user-info {
+    flex: none;
+  }
+
+  .menu-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+}
