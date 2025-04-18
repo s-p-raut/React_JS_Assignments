@@ -1,0 +1,21 @@
+.table-container {
+    margin-top: 25px;
+  text-align: -webkit-center;
+}
+
+.user-table {
+  margin-top: 25px;
+  width: 80%;
+  text-align: center;
+}
+
+.addDiv {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    padding-left: 220px;
+}
+
+.btn {
+    margin-right: 10px;
+}
