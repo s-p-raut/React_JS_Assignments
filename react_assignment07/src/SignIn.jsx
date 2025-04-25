@@ -9,7 +9,7 @@ const hardcodedUser = {
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate(); // Hook to programmatically navigate
+  const navigate = useNavigate();
 
   const handleSignIn = (e) => {
     e.preventDefault();
@@ -21,11 +21,11 @@ const SignIn = () => {
   };
 
   const handleSignUp = () => {
-    navigate("/signup"); // Navigate to Sign Up page
+    navigate("/signup");
   };
 
   const handleForgotPassword = () => {
-    navigate("/forgot-password"); // Navigate to Forgot Password page
+    navigate("/forgot-password");
   };
 
   return (
