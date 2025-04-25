@@ -6,7 +6,7 @@ const SignUp = () => {
 
   const handleSignUp = (e) => {
     e.preventDefault();
-    alert("You have registered successfully");
+    alert("User registered successfully");
   };
 
   return (
